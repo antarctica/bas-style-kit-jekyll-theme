@@ -735,7 +735,7 @@ After release:
 
 1. bump the version in:
   * `jekyll-theme-bas-style-kit.gemspec`
-  * `_data/bsk_jekyll_vars.json`
+  * `_data/bas-style-kit/bsk-vars.yml`
 2. build and push the app docker image [1]
 3. commit changes, merge with master and close release branch
 

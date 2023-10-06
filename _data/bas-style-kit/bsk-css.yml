@@ -1,5 +1,12 @@
 ---
 -
-    href: 'https://cdn.web.bas.ac.uk/bas-style-kit/0.6.1/css/bas-style-kit.min.css'
-    integrity: 'sha256-k05vjok9IGTMBJ8KYnQYX9sEc7A9eGWsTM8tQ2XqE8A='
+    href: 'https://cdn.web.bas.ac.uk/bas-style-kit/0.7.0-alpha/css/bas-style-kit.min.css'
+    integrity: 'sha256-oBKvF34EPq2Wb48GdD62vroHnvtzneGzsi6ocaemWUc='
     type: 'remote'
+-
+    # href: 'http://localhost:8043/develop/dist/css/bas-style-kit.css'
+    # integrity: 'sha256-k05vjok9IGTMBJ8KYnQYX9sEc7A9eGWsTM8tQ2XqE8A='
+    # type: 'remote'
+-
+    # href: '/assets/css/styles.css'
+    # type: 'local'
