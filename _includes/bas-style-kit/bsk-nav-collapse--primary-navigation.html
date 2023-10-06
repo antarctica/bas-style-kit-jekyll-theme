@@ -8,14 +8,14 @@
                         {% assign is_active = true %}
                     {% endif %}
                 {% endfor %}
-                <li class="bsk-dropdown {% if is_active == true %}bsk-active{% endif %}">
-                    <a class="bsk-dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                <li class="bsk-nav-item bsk-nav-item bsk-dropdown {% if is_active == true %}bsk-active{% endif %}">
+                    <a class="bsk-dropdown-toggle bsk-nav-link" href="#" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                         {{ item.title }} <span class="bsk-caret"></span>
                     </a>
                     <ul class="bsk-dropdown-menu">
                         {% for item in item.children %}
                             <li {% if page.url == item.url %}class="bsk-active"{% endif %}>
-                                {% if page.url == item.url %}<span class="bsk-sr-only">(current)</span>{% endif %}
+                                <!-- {% if page.url == item.url %}<span class="bsk-visually-hidden">(current)</span>{% endif %} -->
                                 <a href="{{ item.url }}">{{ item.title }}</a>
                             </li>
                         {% endfor %}
@@ -23,7 +23,7 @@
                 </li>
             {% else %}
                 <li {% if page.url == item.url %}class="bsk-active"{% endif %}>
-                    {% if page.url == item.url %}<span class="bsk-sr-only">(current)</span>{% endif %}
+                    <!-- {% if page.url == item.url %}<span class="bsk-visually-hidden">(current)</span>{% endif %} -->
                     <a href="{{ item.url }}">{{ item.title }}</a>
                 </li>
             {% endif %}

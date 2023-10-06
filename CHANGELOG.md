@@ -5,6 +5,30 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 
 ## [Unreleased][unreleased]
 
+## 0.12.4 - 2023-10-05
+### Changed
+* Use new versions of css & js etc from the BAS CDN
+## 0.12.2 - 2023-08-11
+### Added
+
+* Sticky class for sidebar in _layouts/bas-style-kit/bsk--standard-page.html
+## 0.12.1 - 2023-08-10
+### Fixed
+
+* Syntax error for an offset class in _layouts/bas-style-kit/bsk--standard-page.html
+
+### Added
+## 0.12.0 - 2023-07-13
+
+### Added
+
+* Updated to Style Kit 0.7.0-alpha
+* Updated to jQuery 3.6.0
+* Updated to Jekyll 4.3.2
+
+### Removed
+
+* jQuery 
 ## 0.11.0 - 2021-03-17
 
 ### Added

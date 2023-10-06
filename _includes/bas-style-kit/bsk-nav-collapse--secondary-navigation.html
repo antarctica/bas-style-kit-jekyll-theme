@@ -1,12 +1,12 @@
 {% if site.menus.site_navigation_secondary %}
-    <ul class="bsk-nav bsk-navbar-nav bsk-navbar-right">
+    <ul class="bsk-nav bsk-navbar-nav bsk-ms-auto">
         {% for item in site.menus.site_navigation_secondary %}
             {% if item.children %}
-                <li class="bsk-dropdown">
-                    <a class="bsk-dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                <li class="bsk-nav-item bsk-dropdown">
+                    <a class="bsk-dropdown-toggle" href="#" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                         {{ item.title }} <span class="bsk-caret"></span>
                     </a>
-                    <ul class="bsk-dropdown-menu">
+                    <ul class="bsk-dropdown-menu bsk-dropdown-menu-end">
                         {% for sub_item in item.children %}
                             <li><a href="{{ sub_item.url }}">{{ sub_item.title }}</a></li>
                         {% endfor %}

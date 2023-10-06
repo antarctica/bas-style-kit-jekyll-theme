@@ -1,11 +1,12 @@
 ---
-version: '2'
+version: '3'
 
 services:
   app:
     build: .
-    image: docker-registry.data.bas.ac.uk/web-apps/bsk/bas-style-kit-jekyll-theme:latest-alpine
+    # image: docker-registry.data.bas.ac.uk/web-apps/bsk/bas-style-kit-jekyll-theme:latest-alpine
     volumes:
       - .:/usr/src/app
     ports:
       - "9000:9000"
+    tty: true
