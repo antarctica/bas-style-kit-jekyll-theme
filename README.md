@@ -2,6 +2,8 @@
 
 Jekyll theme for the [BAS Style Kit](https://style-kit.web.bas.ac.uk).
 
+These templates get packaged up into a Ruby Gem. This Gem is then used in other projects.
+
 ![Screenshot of theme](screenshot.png)
 
 ## Installation
