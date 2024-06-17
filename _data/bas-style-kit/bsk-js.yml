@@ -7,6 +7,6 @@
     href: 'https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.8.9/dist/cookieconsent.js'
     type: 'remote'
 -
-    href: 'https://cdn.web.bas.ac.uk/bas-style-kit/0.7.0-alpha/js/bas-style-kit.min.js'
-    integrity: 'sha256-CeINelPKSIKuSMUCBWt2GtM8lu6t5AIj+Iwo1ySpNqw='
+    href: 'https://cdn.web.bas.ac.uk/bas-style-kit/0.7.3/js/bas-style-kit.min.js'
+    integrity: 'sha256-gZ+qic08vtKHiM28aXhNHl8Al1qEToL6o8d3omPEJEY='
     type: 'remote'

@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = 'jekyll-theme-bas-style-kit'
-  spec.version       = '0.12.7'
+  spec.version       = '0.12.11'
   spec.authors       = ['baswebapps']
   spec.email         = ['webapps@bas.ac.uk']
 
